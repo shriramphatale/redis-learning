@@ -1,0 +1,16 @@
+{
+    "name": "login-otp-with-ttl",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/index.js",
+        "subscriber1": "node src/subscriber.js",
+        "subscriber2": "node src/subscriber2.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^6.0.0"
+    }
+}
